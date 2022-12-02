@@ -30,7 +30,7 @@ const itActsAsRestaurantModel = (favoriteRestaurant) => {
       .toEqual([]);
   });
 
-  it('can return all of the movies that have been added', async () => {
+  it('can return all of the restaurants that have been added', async () => {
     favoriteRestaurant.putRestaurant({
       id: 1,
     });
@@ -48,7 +48,7 @@ const itActsAsRestaurantModel = (favoriteRestaurant) => {
       ]);
   });
 
-  it('should remove favorite movie', async () => {
+  it('should remove favorite restaurant', async () => {
     favoriteRestaurant.putRestaurant({
       id: 1,
     });
@@ -71,7 +71,7 @@ const itActsAsRestaurantModel = (favoriteRestaurant) => {
       ]);
   });
 
-  it('should handle request to remove a movie even though the movie has not been added', async () => {
+  it('should handle request to remove a restaurant even though the restaurant has not been added', async () => {
     favoriteRestaurant.putRestaurant({
       id: 1,
     });
