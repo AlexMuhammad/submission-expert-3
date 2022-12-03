@@ -22,27 +22,6 @@ const RestaurantList = {
           </h2>
           <div class="list-restoran"></div>
         </section>
-        <section class="other">
-          <article class="jobs-item">
-            <picture>
-              <source media="(max-width: 600px)" srcset="../images/hero-image_4-small.jpg">
-              <img src='../images/hero-image_4-large.jpg' alt="hero poster">
-            </picture>
-            <div class="jobs-item__content">
-              <h3 class="jobs-item__name">Join our team</h3>
-              <p class="jobs-item__city">We're always hiring and excited to add new talent to our team.</p>
-              <p class="jobs-item__more">-LEARN MORE</p>
-            </div>
-          </article>
-          <article class="info-item">
-            <div class="info-item__thumbnail"></div>
-            <div class="jobs-item__content">
-              <h3 class="jobs-item__name">Sustainability</h3>
-              <p class="jobs-item__city">Comitted to the triple bottom line-people, planet and profit-we do everything we can to make our restaurant environment as healthy as possible.</p>
-              <p class="info-item__more">-LEARN MORE</p>
-            </div>
-          </article>
-        </section>
       </main>
     `;
   },

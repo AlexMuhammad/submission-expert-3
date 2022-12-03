@@ -227,7 +227,7 @@ a {
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
-  background-image: url("../public/images/heros/hero-image_4.jpg");
+  background-image: url("../public/images/sharp/hero-image_4-large.jpg");
 }
 
 .hero__inner {
@@ -395,6 +395,12 @@ section {
 .info-item__more {
   font-size: 14px;
   font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+	.hero {
+		background-image: url("../public/images/sharp/hero-image_4-small.jpg");
+	}
 }
 
 footer {
